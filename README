@@ -94,6 +94,10 @@ Author: Michael Brown <mjbrownie @ NOSPAMMY gmail.com>
     It would probably be possible to differentiate lists with some regex but
     this plugin is probably overkill already.
 
+    Adding comments beginning with double-quote (the " character) to the end of
+    a :SwapList command can interfere with parsing. Add the comment on a
+    separate line instead.
+
 ================================================================================
 
 3 Swapping
